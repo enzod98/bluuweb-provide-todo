@@ -1,6 +1,6 @@
 <template>
   <form @submit.prevent="agregarTarea">
-      <input type="text" placeholder="Ingrese tarea" v-model.trim="tareaInput">
+      <input type="text" placeholder="Ingrese tarea" class="form-control mb-3" v-model.trim="tareaInput">
       <button class="btn btn-primary w-100">
           Agregar
       </button>
